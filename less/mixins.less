@@ -1,0 +1,33 @@
+// Mixins Here
+
+.flexify() {
+    display: flex;
+}
+
+.navitems() {
+    text-decoration: none;
+    color: @nav-font;
+    font-size: 1.75rem;
+    margin: 2rem;
+}
+
+.mobileButton() {
+    width: 80%;
+    margin: auto;
+    padding: 2rem 10rem;
+}
+
+//Parametric Mixins
+
+.buttonStyle(@bgcolor, @fcolor, @btn-font, @fsize) {
+    background-color: @bgcolor;
+    color: @fcolor;
+    font-family: @btn-font;
+    font-size: @fsize;
+    text-align: center;
+    padding: 10px;
+    // border-radius: 10px;
+    width: 15rem;
+    height: 4rem;
+}
+
