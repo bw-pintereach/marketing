@@ -179,10 +179,13 @@ body .navigation nav a {
 }
 footer {
   display: flex;
-  justify-content: flex-start;
-  margin: 2rem 2rem;
+  justify-content: center;
   padding-top: 2rem;
+  margin-bottom: 2rem;
   border-top: 1px solid #8DBFFD;
+}
+.home .intro {
+  margin-top: 2rem;
 }
 .home .intro h1 {
   font-size: 5rem;
@@ -192,130 +195,80 @@ footer {
   border-radius: 1rem;
 }
 .home .intro h2 {
-  padding: 15px;
+  padding: 1.5rem;
 }
 .home .intro p {
-  padding: 0 15px;
+  padding: 0 1.5rem;
 }
-.home .intro .main-img {
-  width: 100%;
-  height: auto;
-  border-radius: 5px;
-}
-.home .space-images {
+.services {
   display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
-@media (max-width: 500px) {
-  .home .space-images .img1 {
-    width: 100%;
-  }
-  .home .space-images .img2 {
-    display: none;
-  }
-  .home .space-images .img3 {
-    display: none;
-  }
-}
-.home .space-images img {
-  width: 28%;
-  margin: 20px 2.5%;
-  border-radius: 20px;
-  height: 100%;
-}
-.home .visit-planets {
-  padding: 15px;
-}
-.home .visit-planets h3 {
-  margin-top: 11px;
-}
-.home .visit-planets p {
-  margin-top: 13px;
-}
-.home .walk {
-  margin-top: 60px;
-  border-top: 1px solid #dee2e6;
+  margin-top: 6rem;
+  border-top: 1px solid #8DBFFD;
   padding-top: 2rem;
-  display: flex;
+  justify-content: space-evenly;
 }
 @media (max-width: 500px) {
-  .home .walk {
-    flex-direction: column-reverse;
+  .services {
     padding: 10px 10px;
   }
 }
-.home .walk .walk-text {
-  width: 50%;
+.services .services-box {
+  width: 25%;
 }
 @media (max-width: 500px) {
-  .home .walk .walk-text {
+  .services .services-box {
     width: 100%;
     margin-top: 20px;
   }
 }
-.home .walk .walk-text h3 {
-  margin-bottom: 10px;
+.sign-up {
+  display: flex;
+  border-top: 1px solid #8DBFFD;
+  justify-content: space-evenly;
+  margin-top: 5rem;
 }
-@media (max-width: 500px) {
-  .home .walk .walk-text h3 {
-    width: 100%;
-  }
+.sign-up .bf-quote {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
-.home .walk .walk-text p {
-  margin-bottom: 26px;
+.sign-up .bf-quote p {
+  font-size: 3rem;
 }
-@media (max-width: 500px) {
-  .home .walk .walk-text p {
-    width: 100%;
-  }
-}
-.home .walk .btn {
+.sign-up .btn {
+  margin-top: 2rem;
   background-color: #22283A;
   color: #F6F7F8;
   font-family: 'Ubuntu', sans-serif;
   font-size: 20px;
   text-align: center;
-  padding: 10px;
+  padding: 1rem;
+  border-radius: 1rem;
   width: 15rem;
   height: 4rem;
   cursor: pointer;
 }
 @media (max-width: 500px) {
-  .home .walk .btn {
+  .sign-up .btn {
     width: 80%;
     margin: auto;
     padding: 2rem 10rem;
   }
 }
-.home .walk .btn:hover {
+.sign-up .btn:hover {
   background-color: #F6F7F8;
   color: #22283A;
   font-family: 'Ubuntu', sans-serif;
   font-size: 20px;
   text-align: center;
-  padding: 10px;
+  padding: 1rem;
+  border-radius: 1rem;
   width: 15rem;
   height: 4rem;
 }
 @media (max-width: 500px) {
-  .home .walk .btn:hover {
+  .sign-up .btn:hover {
     width: 80%;
     margin: auto;
     padding: 2rem 10rem;
   }
-}
-.home .walk .walk-img {
-  width: 46%;
-  margin-left: 4%;
-}
-@media (max-width: 500px) {
-  .home .walk .walk-img {
-    width: 95%;
-  }
-}
-.home .walk .walk-img img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
 }
