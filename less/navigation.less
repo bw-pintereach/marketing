@@ -5,6 +5,9 @@ body {
         .flexify();
         align-items: center;
         justify-content: space-between;
+        @media @phone {
+            flex-direction: column;
+        }
     
         .logo {
             img {
@@ -13,6 +16,10 @@ body {
         }
     
         nav {
+            .flexify();
+            @media @phone {
+                flex-direction: column;
+            }
             margin-top: 1rem;
             // margin-bottom: 1rem;
             a {
