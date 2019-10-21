@@ -7,6 +7,7 @@
  
   <title>Pintereach</title>
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu" rel="stylesheet">
   <link href="css/index.css" rel="stylesheet">
 
@@ -17,18 +18,32 @@
 
 <body>
   <div class="container home">
-    <div class="navigation">
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+        <a href="#home" class="active"><img src="img/logo.png" alt="Pintereach logo"></a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <!-- <div class="navigation">
         <div class="logo">
           <a href="/index.html"><img src="img/logo.png" alt="Pintereach logo"></a>
         </div>
         <nav>
-            <!-- <a href="#">Home</a> -->
+            <a href="#">Home</a>
             <a href="#">About Us</a>
-            <!-- <a href="#">Services</a>
-            <a href="#">Contact</a> -->
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
             <a href="#">Sign Up</a>
         </nav>
-    </div>  
+    </div>   -->
     <header class="intro">
       <h1>As a researcher, it's difficult to keep track of articles you want to read later.<br><br>Pintereach helps you research by enabling you to save and organize articles in to categories to read later.</h1>
     </header>

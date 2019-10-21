@@ -1,33 +1,83 @@
 // Navigation code here
 
-body {
-    .navigation {
+.home {
+    .topnav {
+        /* Style the navigation menu */
         .flexify();
-        align-items: center;
+        overflow: hidden;
+        background-color: #fff;
+        position: relative;
         justify-content: space-between;
-        @media @phone {
-            flex-direction: column;
+        img {
+            width: 20rem;
         }
-    
-        .logo {
-            img {
-                width: 20rem;
-            }
+        /* Hide the links inside the navigation menu (except for logo/home) */
+        #myLinks {
+            display: none;
         }
-    
-        nav {
-            .flexify();
-            @media @phone {
-                flex-direction: column;
-            }
+        /* Style navigation menu links */
+        a {
+            color: black;
             margin-top: 1rem;
-            a {
-                .navitems();
+            text-decoration: none;
+            font-size: 1.7rem;
+            display: block;
+            /* Style the hamburger menu */
+            .icon {
+                color: black;
+                // background: white;
+                display: block;
+                position: absolute;
+                right: 0;
+                top: 0;
             }
-            a:hover {
-                color: #8DBFFD;
+            .fa-bars {
+                font-size: 2.5rem;
+                margin-top: 1.5rem;
             }
         }
+        /* Add a grey background color on mouse-over */
+        a:hover {
+            background-color: #fff;
+            color: black;
+        }
+        /* Style the active link (or home/logo) */
+        .active {
+            // background-color: #4CAF50;
+            // color: white;
+        }
+        
     }
+
+    // 1st version of the nav 
+
+    // .navigation {
+    //     .flexify();
+    //     align-items: center;
+    //     justify-content: space-between;
+    //     @media @phone {
+    //         flex-direction: column;
+    //     }
+    
+    //     .logo {
+    //         img {
+    //             width: 20rem;
+    //         }
+    //     }
+    
+    //     nav {
+    //         .flexify();
+    //         @media @phone {
+    //             flex-direction: column;
+    //         }
+    //         margin-top: 1rem;
+    //         a {
+    //             .navitems();
+    //         }
+    //         a:hover {
+    //             color: #8DBFFD;
+    //         }
+    //     }
+    // }
 }
 

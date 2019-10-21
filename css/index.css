@@ -160,43 +160,46 @@ p {
   width: 100%;
   margin: 0 auto;
 }
-body .navigation {
+.home .topnav {
+  /* Style the navigation menu */
   display: flex;
-  align-items: center;
+  overflow: hidden;
+  background-color: #fff;
+  position: relative;
   justify-content: space-between;
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  /* Style navigation menu links */
+  /* Add a grey background color on mouse-over */
+  /* Style the active link (or home/logo) */
 }
-@media (max-width: 500px) {
-  body .navigation {
-    flex-direction: column;
-  }
-}
-body .navigation .logo img {
+.home .topnav img {
   width: 20rem;
 }
-body .navigation nav {
-  display: flex;
-  margin-top: 1rem;
+.home .topnav #myLinks {
+  display: none;
 }
-@media (max-width: 500px) {
-  body .navigation nav {
-    flex-direction: column;
-  }
-}
-body .navigation nav a {
-  text-decoration: none;
+.home .topnav a {
   color: black;
-  font-size: 1.75rem;
-  margin: 2rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  font-size: 1.7rem;
+  display: block;
+  /* Style the hamburger menu */
 }
-@media (max-width: 500px) {
-  body .navigation nav a {
-    margin: 1rem;
-    border-bottom: 1px solid #FF85CF;
-    text-align: center;
-  }
+.home .topnav a .icon {
+  color: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
-body .navigation nav a:hover {
-  color: #8DBFFD;
+.home .topnav a .fa-bars {
+  font-size: 2.5rem;
+  margin-top: 1.5rem;
+}
+.home .topnav a:hover {
+  background-color: #fff;
+  color: black;
 }
 footer {
   display: flex;
