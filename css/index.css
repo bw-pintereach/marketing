@@ -168,7 +168,6 @@ p {
   position: relative;
   justify-content: space-between;
   /* Hide the links inside the navigation menu (except for logo/home) */
-  /* Style navigation menu links */
   /* Add a grey background color on mouse-over */
   /* Style the active link (or home/logo) */
 }
@@ -176,26 +175,34 @@ p {
   width: 20rem;
 }
 .home .topnav #myLinks {
+  display: flex;
   display: none;
+  margin-top: 5rem;
+  /* Style navigation menu links */
 }
-.home .topnav a {
+.home .topnav #myLinks a {
   color: black;
-  margin-top: 1rem;
   text-decoration: none;
-  font-size: 1.7rem;
-  display: block;
-  /* Style the hamburger menu */
+  font-size: 2rem;
+  margin: 1.5rem 1.5rem;
 }
-.home .topnav a .icon {
+@media (max-width: 500px) {
+  .home .topnav #myLinks a {
+    font-size: 1.5rem;
+    margin: 0.5rem 0.5rem;
+  }
+}
+.home .topnav .icon {
   color: black;
+  background: white;
   display: block;
   position: absolute;
   right: 0;
   top: 0;
 }
-.home .topnav a .fa-bars {
-  font-size: 2.5rem;
+.home .topnav .icon .fa-bars {
   margin-top: 1.5rem;
+  font-size: 2rem;
 }
 .home .topnav a:hover {
   background-color: #fff;
