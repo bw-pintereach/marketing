@@ -142,7 +142,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'American typewriter', serif;
+  font-family: 'Bitter', serif;
   color: #23293B;
 }
 h2 {
@@ -227,7 +227,7 @@ footer {
 .home .intro h1 {
   font-size: 5rem;
   padding: 2.5rem 2.5rem;
-  font-family: 'American typewriter', serif;
+  font-family: 'Bitter', serif;
 }
 @media (max-width: 500px) {
   .home .intro h1 {
