@@ -178,6 +178,7 @@ p {
   display: flex;
   display: none;
   margin-top: 5rem;
+  margin-bottom: 1rem;
   /* Style navigation menu links */
 }
 .home .topnav #myLinks a {
@@ -188,9 +189,12 @@ p {
 }
 @media (max-width: 500px) {
   .home .topnav #myLinks a {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     margin: 0.5rem 0.5rem;
   }
+}
+.home .topnav #myLinks a:hover {
+  border-bottom: 1px solid #FF85CF;
 }
 .home .topnav .icon {
   color: black;
