@@ -256,8 +256,11 @@ footer {
     margin-top: 20px;
   }
 }
+.services .services-box i {
+  margin-bottom: 2rem;
+}
 .services .services-box p {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 .sign-up {
   display: flex;
