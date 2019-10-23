@@ -234,7 +234,7 @@ footer {
     font-size: 2.5rem;
   }
 }
-.services {
+.home .services {
   display: flex;
   border-top: 1px solid #8DBFFD;
   margin-top: 6rem;
@@ -242,45 +242,45 @@ footer {
   justify-content: space-evenly;
 }
 @media (max-width: 500px) {
-  .services {
+  .home .services {
     flex-direction: column;
     padding: 10px 10px;
   }
 }
-.services .services-box {
+.home .services .services-box {
   width: 25%;
 }
 @media (max-width: 500px) {
-  .services .services-box {
+  .home .services .services-box {
     width: 100%;
     margin-top: 20px;
   }
 }
-.services .services-box i {
+.home .services .services-box i {
   margin-bottom: 2rem;
 }
-.services .services-box p {
+.home .services .services-box p {
   margin-top: 1.5rem;
 }
-.sign-up {
+.home .sign-up {
   display: flex;
   border-top: 1px solid #8DBFFD;
   justify-content: space-evenly;
   margin-top: 5rem;
 }
 @media (max-width: 500px) {
-  .sign-up {
+  .home .sign-up {
     flex-direction: column;
   }
 }
-.sign-up .bf-quote {
+.home .sign-up .bf-quote {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-.sign-up .bf-quote p {
+.home .sign-up .bf-quote p {
   font-size: 3rem;
 }
-.sign-up .btn {
+.home .sign-up .btn {
   margin-top: 2rem;
   padding: 3rem;
   border-radius: 1rem;
@@ -294,14 +294,14 @@ footer {
   cursor: pointer;
 }
 @media (max-width: 500px) {
-  .sign-up .btn {
+  .home .sign-up .btn {
     width: 80%;
     margin: auto;
     margin-bottom: 2rem;
     padding: 2.5rem 10rem;
   }
 }
-.sign-up .btn:hover {
+.home .sign-up .btn:hover {
   background-color: #F6F7F8;
   color: #FF85CF;
   font-family: 'Ubuntu', sans-serif;
@@ -309,7 +309,7 @@ footer {
   text-align: center;
 }
 @media (max-width: 500px) {
-  .sign-up .btn:hover {
+  .home .sign-up .btn:hover {
     width: 80%;
     margin: auto;
     margin-bottom: 2rem;
