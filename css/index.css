@@ -231,7 +231,7 @@ footer {
 }
 @media (max-width: 500px) {
   .home .intro h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 }
 .home .services {
@@ -244,7 +244,7 @@ footer {
 @media (max-width: 500px) {
   .home .services {
     flex-direction: column;
-    padding: 10px 10px;
+    padding: 1rem 1rem;
   }
 }
 .home .services .services-box {
@@ -253,7 +253,7 @@ footer {
 @media (max-width: 500px) {
   .home .services .services-box {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 2rem;
   }
 }
 .home .services .services-box i {
@@ -300,6 +300,9 @@ footer {
     margin-bottom: 2rem;
     padding: 2.5rem 10rem;
   }
+}
+.home .sign-up .btn a {
+  text-decoration: none;
 }
 .home .sign-up .btn:hover {
   background-color: #F6F7F8;
