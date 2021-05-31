@@ -1,0 +1,94 @@
+// Navigation code here
+
+.home {
+    .topnav {
+        /* Style the navigation menu */
+        .flexify();
+        overflow: hidden;
+        background-color: #fff;
+        position: relative;
+        justify-content: space-between;
+        img {
+            width: 20rem;
+        }
+        /* Hide the links inside the navigation menu (except for logo/home) */
+        #myLinks {
+            .flexify();
+            display: none;
+            margin-top: 5rem;
+            margin-bottom: 1rem;
+            
+            /* Style navigation menu links */
+            a {
+                color: black;
+                text-decoration: none;
+                font-size: 2rem;
+                margin: 1.5rem 1.5rem;
+                @media @phone {
+                    font-size: 1.75rem;
+                    margin: .5rem .5rem;
+                }
+            }
+            a:hover {
+                border-bottom: 1px solid @btn-bg-color;
+            }
+
+        }
+        .icon {
+            color: black;
+            background: white;
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 0;
+            
+            .fa-bars {
+                margin-top: 1.5rem;
+                font-size: 2rem;
+            }
+        }
+        /* Add a grey background color on mouse-over */
+        a:hover {
+            background-color: #fff;
+            color: black;
+        }
+        /* Style the active link (or home/logo) */
+        .active {
+            // background-color: #4CAF50;
+            // color: white;
+        }
+    }   
+}
+
+    // 1st version of the nav 
+
+    // .navigation {
+    //     .flexify();
+    //     align-items: center;
+    //     justify-content: space-between;
+    //     @media @phone {
+    //         flex-direction: column;
+    //     }
+    
+    //     .logo {
+    //         img {
+    //             width: 20rem;
+    //         }
+    //     }
+    
+    //     nav {
+    //         .flexify();
+    //         @media @phone {
+    //             flex-direction: column;
+    //         }
+    //         margin-top: 1rem;
+    //         a {
+    //             .navitems();
+    //         }
+    //         a:hover {
+    //             color: #8DBFFD;
+    //         }
+    //     }
+    // }
+
+

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+
+    <title>Pintereach</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Bitter&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu"
+      rel="stylesheet"
+    />
+    <link href="css/index.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/a8bc0ef391.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="container home">
+      <!-- Top Navigation Menu -->
+      <div class="topnav">
+        <a href="index.html" class="active"
+          ><img src="img/logo.png" alt="Pintereach logo"
+        /></a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+          <!-- <a href="#news">News</a> -->
+          <a href="https://marketingproject.netlify.com/index.html">About Us</a>
+          <a href="#">Sign Up</a>
+          <a href="#">Login</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <header class="intro">
+        <h1>
+          As a researcher, it's difficult to keep track of articles you want to
+          read later.<br /><br />Pintereach helps you research by enabling you
+          to save and organize articles in to categories to read later.
+        </h1>
+      </header>
+      <section class="services">
+        <div class="services-box">
+          <i class="fa-5x far fa-clone"></i>
+          <h2>Create Boards</h2>
+          <p>
+            With Pintereach you can easily create various mood boards to hold
+            articles that interest you. Simply create a board and name it as you
+            wish.
+          </p>
+        </div>
+        <div class="services-box">
+          <i class="fa-5x far fa-newspaper"></i>
+          <h2>Post Articles</h2>
+          <p>
+            Once you're logged in, simply click on post article and you can
+            quickly post the article to one of your boards. You can upload your
+            own cover image to make each article visually unique or use the
+            article's own featured image.
+          </p>
+        </div>
+        <div class="services-box">
+          <i class="fa-5x fas fa-paper-plane"></i>
+          <h2>Share Boards</h2>
+          <p>
+            Have a neat series that your friends may like? Grab the share link
+            from your board to invite your friends to view your articles.
+          </p>
+        </div>
+      </section>
+      <section class="sign-up">
+        <div class="bf-quote">
+          <p>
+            "Reading was the only amusement I allowed myself."<br />- Benjamin
+            Franklin
+          </p>
+        </div>
+        <div class="btn">
+          <a href="#">Sign Up</a>
+        </div>
+      </section>
+      <footer>
+        <p>Copyright Pintereach 2019</p>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+// Mixins Here
+
+.flexify() {
+    display: flex;
+}
+
+.navitems() {
+    text-decoration: none;
+    color: @nav-font;
+    font-size: 1.75rem;
+    margin: 2rem;
+    @media @phone {
+        margin: 1rem;
+        border-bottom: 1px solid @btn-bg-color;
+        text-align: center;
+    }
+}
+
+.mobileButton() {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2rem;
+    padding: 2.5rem 10rem;
+}
+
+.blueBorder() {
+    border-top: 1px solid #8DBFFD;
+}
+
+//Parametric Mixins
+
+.buttonStyle(@bgcolor, @fcolor, @btn-font, @fsize) {
+    background-color: @bgcolor;
+    color: @fcolor;
+    font-family: @btn-font;
+    font-size: @fsize;
+    text-align: center;
+}
+
